@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "mikestead.dotenv",
+    "tamasfe.even-better-toml",
+    "github.vscode-github-actions"
+  ]
+}

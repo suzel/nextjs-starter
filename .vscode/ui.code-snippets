@@ -1,0 +1,40 @@
+{
+  "New Page": {
+    "prefix": "new_page",
+    "body": [
+      "import { Metadata } from 'next'",
+      "",
+      "export const metadata: Metadata = {",
+      "  title: '${1:Page Title}',",
+      "  description: '${2:Page Description}'",
+      "}",
+      "",
+      "export default function ${TM_FILENAME_BASE/(.+)/${1:/capitalize}/}() {",
+      "  return (",
+      "    <main className=\"container mx-auto px-4 py-8\">",
+      "      <h1 className=\"text-3xl font-bold\">${1:Page Title}</h1>",
+      "      $0",
+      "    </main>",
+      "  )",
+      "}"
+    ],
+    "description": "Create a new Next.js page"
+  },
+  "New Component": {
+    "prefix": "new_component",
+    "body": [
+      "interface ${TM_FILENAME_BASE}Props {",
+      "  ${1:prop}: ${2:type}",
+      "}",
+      "",
+      "export default function ${TM_FILENAME_BASE/(.+)/${1:/capitalize}/}({ ${1:prop} }: ${TM_FILENAME_BASE/(.+)/${1:/capitalize}/}Props) {",
+      "  return (",
+      "    <div>",
+      "      $0",
+      "    </div>",
+      "  )",
+      "}"
+    ],
+    "description": "Create a new React component"
+  }
+}

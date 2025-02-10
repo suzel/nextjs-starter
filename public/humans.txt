@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Sukru Uzel
+Contact: sukru.uzel@gmail.com
+Site: https://github.com/suzel/nextjs-starter
+
+/* SITE */
+Doctype: HTML5
+Standards: HTML5, CSS3, JavaScript
+Framework: Next.js
+Software: VSCode, Next.js

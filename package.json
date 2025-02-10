@@ -1,12 +1,29 @@
 {
   "name": "nextjs-starter",
   "version": "0.1.0",
-  "private": true,
+  "description": "Next.js Starter",
+  "homepage": "https://github.com/suzel/nextjs-starter",
+  "author": {
+    "name": "Sukru Uzel",
+    "email": "sukru.uzel@gmail.com",
+    "url": "https://sukruuzel.com"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/suzel/nextjs-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suzel/nextjs-starter/issues"
+  },
+  "engines": {
+    "node": ">=23"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "15.1.6",
