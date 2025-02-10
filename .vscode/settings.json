@@ -26,8 +26,6 @@
     ".next": true,
     "out": true
   },
-  "prettier.configPath": "${workspaceFolder}/prettier.config.mjs",
-  "prettier.ignorePath": "${workspaceFolder}/.gitignore",
   "search.exclude": {
     "**/.git": true,
     "**/node_modules": true,
